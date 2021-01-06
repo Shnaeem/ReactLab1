@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  height: 100%;
+}
+.Content{
+  min-height: 100%;
+}
+.navbar{
+  background-color: rgba(255, 162, 0, 0.694);
+  margin:0;
+  padding:0;
+}
+
+.navbar ul{
+  list-style-type: none;
+  margin: 0 2rem;
+  padding:1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+
+
+.bookStyle{
+  border: rgb(255, 166, 0) 4px solid;
+  background-color: rgba(255, 162, 0, 0.694);
+  margin: 80px 250px;
+  /* margin: 2rem 4rem; */
+}
+.bookInnerComps{
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 30px;
+}
+.bookTitle{
+  margin: 5px 30px 0 30px;
+}
+.imageSize{
+  width: 100px;
+  margin: 20px
+}
+.bookDesc{
+  text-align: left;
+}
+
+.footer{
+  background-color:rgba(255, 162, 0, 0.694);
+  height: 50px;
+  /* display: flex;
+  flex-shrink: 0; */
+}
